@@ -1,19 +1,11 @@
-# area variables (in square meters)
-hall = 11.25
-kit = 18.0
-liv = 20.0
-bed = 10.75
-bath = 9.50
+# Create the areas list
+areas = ["hallway", 11.25, "kitchen", 18.0, "living room", 20.0,
+ "bedroom", 10.75, "bathroom", 9.50]
 
-# house information as list of lists
-house = [["hallway", hall],
-         ["kitchen", kit],
-         ["living room", liv],
-         ["bedroom", bed],
-         ["bathroom", bath]]
 
-# Print out house
-print(house)
+downstairs = (areas[0:6])
+upstairs = (areas[6:10])
 
-# Print out the type of house
-print(type(house))
+
+print(downstairs)
+print(upstairs)
